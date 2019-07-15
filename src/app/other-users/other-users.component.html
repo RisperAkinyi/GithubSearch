@@ -1,5 +1,5 @@
 
-<div class="mee">
+<div class="head">
 <h2>-Check Out Other Users On Git Here!-</h2>
 </div>
 <div class="input">
@@ -8,22 +8,12 @@
 <button type="button" class="btn btn-warning"(click)="getUserInfo()"  >SEARCH</button>
 </div>
 <hr>
-</div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6" id="u-avatar">
-          <img src="{{otherUserInfo.avatar}}"class="img-fluid rounded-circle">
-        </div>
-          <div class="col-md-6">
+<div class=content>
         <ul class="jumbotron" >
             <li   appHighlight>Username: <b>{{otherUserInfo.username}} </b></li>
               <li appHighlight>Followers: {{otherUserInfo.followers}}</li>
                 <li appHighlight>following:  {{otherUserInfo.following}}</li>
         
-                <li><a href="{{otherUserInfo.html_url}}" class="btn btn-success" target="_blank">View Github Profile</a></li>
+                <li><a href="{{otherUserInfo.html_url}}" class="btn btn-warning" target="_blank">View Github Profile</a></li>
         </ul>
-              </div>
-              
 </div>
-</div>
-
