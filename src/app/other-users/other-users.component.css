@@ -1,0 +1,27 @@
+#search {
+    font-size: xx-large;
+  
+  }
+  .input{
+      text-align: center;
+  }
+  .search{
+  	margin-bottom: 100px;
+  }
+
+  ul{
+  	list-style: none;
+  }
+
+  .head{
+  	margin-bottom: 30px;
+  	margin-top: 50px;
+  	color: white;
+  	text-align: center;
+  	font-size: 205px;
+  }
+  .content{
+    font-size: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }

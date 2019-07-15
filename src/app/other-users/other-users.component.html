@@ -1,0 +1,19 @@
+
+<div class="head">
+<h2>-Check Out Other Users On Git Here!-</h2>
+</div>
+<div class="input">
+<input type="text" placeholder=" Enter a username " [(ngModel)]="usernameInput"id="search"><br><br>
+<div class="search">
+<button type="button" class="btn btn-warning"(click)="getUserInfo()"  >SEARCH</button>
+</div>
+<hr>
+<div class=content>
+        <ul class="jumbotron" >
+            <li   appHighlight>Username: <b>{{otherUserInfo.username}} </b></li>
+              <li appHighlight>Followers: {{otherUserInfo.followers}}</li>
+                <li appHighlight>following:  {{otherUserInfo.following}}</li>
+        
+                <li><a href="{{otherUserInfo.html_url}}" class="btn btn-warning" target="_blank">View Github Profile</a></li>
+        </ul>
+</div>
