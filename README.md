@@ -8,7 +8,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Behavior Driven Development (BDD)
 |Behavior | Input | Output|
 |---------| ------|-------|
-|Search for | upvote clicked | votes++ |
+|Search for user| Input "RisperAkinyi" | Display user Risper Akinyi |
+|Search for repository| Input "RisperAkinyi/Portfolio" | Display user Risper Akinyi/Portfolio |
 
 ## Development server
 
